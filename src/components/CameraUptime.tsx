@@ -47,10 +47,10 @@ function LostCardsPattern() {
 }
 
 function hoursColor(hours: number) {
-  if (hours <= 0) return '#eef2ee'
+  if (hours <= 0) return '#eef0f2'
   const t = Math.min(1, hours / 14)
-  const light = [214, 236, 222]
-  const dark = [7, 85, 60]
+  const light = [220, 228, 236]
+  const dark = [28, 60, 84]
   return `rgb(${light.map((value, index) => Math.round(value + (dark[index] - value) * t)).join(' ')})`
 }
 

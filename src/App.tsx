@@ -52,11 +52,11 @@ function App() {
     <>
       <header className="site-header">
         <div className="header-inner">
-          <button className="brand" type="button" onClick={() => navigate('home')} aria-label="BeeCam 2026 dashboard home">
-            <span className="brand-mark" aria-hidden="true">B</span>
+          <button className="brand" type="button" onClick={() => navigate('home')} aria-label="Warren Lab BeeCam 2026 dashboard home">
+            <span className="brand-lab">Warren Lab</span>
             <span><strong>BeeCam 2026</strong><small>{activeTab === 'clover' ? 'Clover cams · Philomath, Oregon' : 'Emerald Queen research network'}</small></span>
           </button>
-          <div className="season-badge"><span className="season-dot" aria-hidden="true" />Field season complete</div>
+          <div className="season-badge">2026 field season complete</div>
         </div>
       </header>
 
@@ -90,7 +90,7 @@ function App() {
       {activeTab === 'clover' && <CloverPage />}
 
       <footer>
-        <p>BeeCam 2026 · Bumble bee monitoring research</p>
+        <p>Warren Lab · BeeCam 2026 bumble bee monitoring</p>
         <span>{activeTab === 'clover' ? 'Clover field · near Philomath, Oregon' : 'Emerald Queen · Willow Creek, California'}</span>
         <nav aria-label="Related BeeCam sites">
           {projectSites.map((site) => (

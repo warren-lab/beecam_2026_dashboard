@@ -41,10 +41,10 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className="hero-layout" aria-labelledby="home-title">
         <div className="hero-copy">
           <p className="eyebrow">Emerald Queen · 2026 field season</p>
-          <h1 id="home-title">Bumble bees, frame by frame.</h1>
+          <h1 id="home-title">Bumble bee visits recorded by the BeeCam network</h1>
           <p>
-            Explore positive detections and unique visits across a distributed
-            network of AI-enabled field cameras.
+            Positive detections and unique visits from the 2026 camera grid at
+            Emerald Queen, with on-device classification and manual review.
           </p>
           <div className="hero-stats hero-stats--three" aria-label="Positive detection summary">
             <article>

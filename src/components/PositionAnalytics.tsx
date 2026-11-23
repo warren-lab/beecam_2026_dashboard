@@ -115,12 +115,12 @@ function RingKey() {
   )
 }
 
-/** Green ramp, light to dark, for the share of visits in a cell. */
+/** Slate ramp, light to dark, for the share of visits in a cell. */
 function heatColor(share: number, max: number) {
-  if (share <= 0) return '#eef2ee'
+  if (share <= 0) return '#eef0f2'
   const t = Math.min(1, share / max)
-  const light = [214, 236, 222]
-  const dark = [7, 85, 60]
+  const light = [220, 228, 236]
+  const dark = [28, 60, 84]
   const mix = light.map((value, index) => Math.round(value + (dark[index] - value) * Math.sqrt(t)))
   return `rgb(${mix.join(' ')})`
 }

@@ -16,7 +16,7 @@ describe('BeeCam dashboard', () => {
     render(<App />)
 
     expect(
-      screen.getByRole('heading', { name: 'Bumble bees, frame by frame.' }),
+      screen.getByRole('heading', { name: 'Bumble bee visits recorded by the BeeCam network' }),
     ).toBeInTheDocument()
     const summary = screen.getByLabelText('Positive detection summary')
     expect(within(summary).getByText('6,134')).toBeInTheDocument()
