@@ -48,7 +48,7 @@ describe('BeeCam dashboard', () => {
     }
     expect(screen.getAllByRole('link', { name: /BeeCam assembly/ })[0]).toHaveAttribute(
       'href',
-      'https://newgend2.github.io/beecam-design/',
+      'https://warren-lab.github.io/beecam-design/',
     )
   })
 

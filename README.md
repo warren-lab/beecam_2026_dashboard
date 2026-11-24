@@ -5,7 +5,7 @@ Raspberry Pi with an AI camera photograph insects visiting flowers and targets, 
 two-stage model finds the bumble bees in those images. Every bee shown on this site has been
 confirmed by a person.
 
-The [website](https://newgend2.github.io/beecam_2026_dashboard/) (GitHub Pages) presents the 2026 field season:
+The [website](https://warren-lab.github.io/beecam_2026_dashboard/) (GitHub Pages) presents the 2026 field season:
 
 - **Overview**: season totals, a slideshow of sharp bumble bee visits drawn from every
   camera, and links to the project's assembly and cocoon cam sites.
